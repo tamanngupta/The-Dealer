@@ -1,0 +1,19 @@
+{
+  "name": "dealfish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@fastify/static": "^10.1.6",
+    "@tiny-fish/sdk": "^0.8.0",
+    "fastify": "^5.12.7"
+  }
+}
